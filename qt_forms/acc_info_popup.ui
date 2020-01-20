@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Account</class>
+ <widget class="QDialog" name="Account">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>925</width>
+    <height>310</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QTableWidget" name="tableWidget">
+     <column>
+      <property name="text">
+       <string>t</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Rate Precision</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Account ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Balance</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>UsdMr</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>mc</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>mcDate</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Account Name</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>usdMr3</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Hedging</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>usableMargin3</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>usableMarginPerc</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>usableMargin3Perc</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Equity</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>UsableMargin</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>DayPL</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Gross PL</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>Account</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>Account</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Orders</class>
+ <widget class="QDialog" name="Orders">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>648</width>
+    <height>280</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="3">
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0" colspan="4">
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="selectionBehavior">
+      <enum>QAbstractItemView::SelectRows</enum>
+     </property>
+     <column>
+      <property name="text">
+       <string>T</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Rate precision</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Order ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Trade ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Time</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Account Name</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Account ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Time in force</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Expire Date</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Currency</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Is Buy</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Buy</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Sell</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Type</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Status</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Amount K</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Currency Point</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Stop Move</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Stop</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Stop Rate</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Limit</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Limit Rate</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Is Entry Order</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Oco Bulk ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Is Net Quantity</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Is Limited Order</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Is Stop Order</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Is ESL Order</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Stop Peg Base Type</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Limit Peg Base Type</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Range</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>Close Order</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="text">
+      <string>Edit Order</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2">
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="text">
+      <string>Edit Limit/Stop</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>Orders</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>Orders</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

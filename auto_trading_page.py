@@ -1,0 +1,118 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'auto_trading_page.ui'
+#
+# Created by: PyQt5 UI code generator 5.13.0
+#
+# WARNING! All changes made in this file will be lost!
+
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_autotrading_page(object):
+    def setupUi(self, autotrading_page):
+        autotrading_page.setObjectName("autotrading_page")
+        autotrading_page.resize(1280, 720)
+        self.verticalLayout_11 = QtWidgets.QVBoxLayout(autotrading_page)
+        self.verticalLayout_11.setObjectName("verticalLayout_11")
+        self.verticalLayout_6 = QtWidgets.QVBoxLayout()
+        self.verticalLayout_6.setObjectName("verticalLayout_6")
+        self.horizontalLayout_3 = QtWidgets.QHBoxLayout()
+        self.horizontalLayout_3.setObjectName("horizontalLayout_3")
+        self.verticalLayout_7 = QtWidgets.QVBoxLayout()
+        self.verticalLayout_7.setObjectName("verticalLayout_7")
+        self.selected_strategies_list = QtWidgets.QListWidget(autotrading_page)
+        self.selected_strategies_list.setObjectName("selected_strategies_list")
+        self.verticalLayout_7.addWidget(self.selected_strategies_list)
+        self.horizontalLayout_3.addLayout(self.verticalLayout_7)
+        self.verticalLayout_8 = QtWidgets.QVBoxLayout()
+        self.verticalLayout_8.setSpacing(0)
+        self.verticalLayout_8.setObjectName("verticalLayout_8")
+        self.selected_strategies_add_strategy_button_2 = QtWidgets.QPushButton(autotrading_page)
+        self.selected_strategies_add_strategy_button_2.setObjectName("selected_strategies_add_strategy_button_2")
+        self.verticalLayout_8.addWidget(self.selected_strategies_add_strategy_button_2)
+        self.selected_strategies_edit_button_2 = QtWidgets.QPushButton(autotrading_page)
+        self.selected_strategies_edit_button_2.setObjectName("selected_strategies_edit_button_2")
+        self.verticalLayout_8.addWidget(self.selected_strategies_edit_button_2)
+        self.selected_strategies_delete_strategy_button_2 = QtWidgets.QPushButton(autotrading_page)
+        self.selected_strategies_delete_strategy_button_2.setObjectName("selected_strategies_delete_strategy_button_2")
+        self.verticalLayout_8.addWidget(self.selected_strategies_delete_strategy_button_2)
+        self.selected_strategies_stop_all_strategy_button_2 = QtWidgets.QPushButton(autotrading_page)
+        self.selected_strategies_stop_all_strategy_button_2.setObjectName("selected_strategies_stop_all_strategy_button_2")
+        self.verticalLayout_8.addWidget(self.selected_strategies_stop_all_strategy_button_2)
+        self.selected_strategies_start_all_strategy_button_2 = QtWidgets.QPushButton(autotrading_page)
+        self.selected_strategies_start_all_strategy_button_2.setObjectName("selected_strategies_start_all_strategy_button_2")
+        self.verticalLayout_8.addWidget(self.selected_strategies_start_all_strategy_button_2)
+        self.selected_strategies_stop_strategy_button_2 = QtWidgets.QPushButton(autotrading_page)
+        self.selected_strategies_stop_strategy_button_2.setObjectName("selected_strategies_stop_strategy_button_2")
+        self.verticalLayout_8.addWidget(self.selected_strategies_stop_strategy_button_2)
+        self.selected_strategies_start_strategy_button_2 = QtWidgets.QPushButton(autotrading_page)
+        self.selected_strategies_start_strategy_button_2.setObjectName("selected_strategies_start_strategy_button_2")
+        self.verticalLayout_8.addWidget(self.selected_strategies_start_strategy_button_2)
+        self.pushButton = QtWidgets.QPushButton(autotrading_page)
+        self.pushButton.setObjectName("pushButton")
+        self.verticalLayout_8.addWidget(self.pushButton)
+        self.horizontalLayout_3.addLayout(self.verticalLayout_8)
+        self.verticalLayout_6.addLayout(self.horizontalLayout_3)
+        self.horizontalLayout_4 = QtWidgets.QHBoxLayout()
+        self.horizontalLayout_4.setObjectName("horizontalLayout_4")
+        self.verticalLayout_9 = QtWidgets.QVBoxLayout()
+        self.verticalLayout_9.setObjectName("verticalLayout_9")
+        self.label_7 = QtWidgets.QLabel(autotrading_page)
+        self.label_7.setObjectName("label_7")
+        self.verticalLayout_9.addWidget(self.label_7)
+        self.label_8 = QtWidgets.QLabel(autotrading_page)
+        self.label_8.setObjectName("label_8")
+        self.verticalLayout_9.addWidget(self.label_8)
+        self.label_9 = QtWidgets.QLabel(autotrading_page)
+        self.label_9.setObjectName("label_9")
+        self.verticalLayout_9.addWidget(self.label_9)
+        self.horizontalLayout_4.addLayout(self.verticalLayout_9)
+        self.verticalLayout_10 = QtWidgets.QVBoxLayout()
+        self.verticalLayout_10.setObjectName("verticalLayout_10")
+        self.label_10 = QtWidgets.QLabel(autotrading_page)
+        self.label_10.setObjectName("label_10")
+        self.verticalLayout_10.addWidget(self.label_10)
+        self.label_11 = QtWidgets.QLabel(autotrading_page)
+        self.label_11.setObjectName("label_11")
+        self.verticalLayout_10.addWidget(self.label_11)
+        self.label_12 = QtWidgets.QLabel(autotrading_page)
+        self.label_12.setObjectName("label_12")
+        self.verticalLayout_10.addWidget(self.label_12)
+        self.horizontalLayout_4.addLayout(self.verticalLayout_10)
+        spacerItem = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+        self.horizontalLayout_4.addItem(spacerItem)
+        self.verticalLayout_6.addLayout(self.horizontalLayout_4)
+        self.verticalLayout_11.addLayout(self.verticalLayout_6)
+
+        self.retranslateUi(autotrading_page)
+        QtCore.QMetaObject.connectSlotsByName(autotrading_page)
+
+    def retranslateUi(self, autotrading_page):
+        _translate = QtCore.QCoreApplication.translate
+        autotrading_page.setWindowTitle(_translate("autotrading_page", "Dialog"))
+        self.selected_strategies_add_strategy_button_2.setText(_translate("autotrading_page", "Add strategy"))
+        self.selected_strategies_edit_button_2.setText(_translate("autotrading_page", "Edit"))
+        self.selected_strategies_delete_strategy_button_2.setText(_translate("autotrading_page", "Delete"))
+        self.selected_strategies_stop_all_strategy_button_2.setText(_translate("autotrading_page", "Stop all"))
+        self.selected_strategies_start_all_strategy_button_2.setText(_translate("autotrading_page", "Start all"))
+        self.selected_strategies_stop_strategy_button_2.setText(_translate("autotrading_page", "Stop"))
+        self.selected_strategies_start_strategy_button_2.setText(_translate("autotrading_page", "Start"))
+        self.pushButton.setText(_translate("autotrading_page", "Backtest"))
+        self.label_7.setText(_translate("autotrading_page", "Strategy status"))
+        self.label_8.setText(_translate("autotrading_page", "Last start"))
+        self.label_9.setText(_translate("autotrading_page", "Last stop"))
+        self.label_10.setText(_translate("autotrading_page", "Not Started"))
+        self.label_11.setText(_translate("autotrading_page", "Never"))
+        self.label_12.setText(_translate("autotrading_page", "Never"))
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    autotrading_page = QtWidgets.QDialog()
+    ui = Ui_autotrading_page()
+    ui.setupUi(autotrading_page)
+    autotrading_page.show()
+    sys.exit(app.exec_())

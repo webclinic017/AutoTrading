@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Positions</class>
+ <widget class="QDialog" name="Positions">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>520</width>
+    <height>348</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0" colspan="6">
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="selectionBehavior">
+      <enum>QAbstractItemView::SelectRows</enum>
+     </property>
+     <column>
+      <property name="text">
+       <string>T</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Rate Precision</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Trade ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Account Name</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Account ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Roll</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Com</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Open</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Value Date</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Gross PL</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Close</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Visible PL</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Is Disabled</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Currency</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Is Buy</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Amount K</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Currency Point</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Time</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Used Margin</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Stop</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Stop Move</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Limit</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Maker</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item row="2" column="3">
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>Close All</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="5">
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="text">
+      <string>Edit Stop/Limit</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="text">
+      <string>Close Position</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>Positions</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>Positions</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

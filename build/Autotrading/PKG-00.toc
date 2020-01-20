@@ -1,0 +1,71 @@
+('D:\\Programming\\Algo Trading\\algo trading '
+ 'project\\build\\Autotrading\\PKG-00.pkg',
+ {'BINARY': 1,
+  'DATA': 1,
+  'EXECUTABLE': 1,
+  'EXTENSION': 1,
+  'PYMODULE': 1,
+  'PYSOURCE': 1,
+  'PYZ': 0},
+ [('PYZ-00.pyz',
+   'D:\\Programming\\Algo Trading\\algo trading '
+   'project\\build\\Autotrading\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\erfan\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\struct.pyo',
+   'PYMODULE'),
+  ('pyimod01_os_path',
+   'd:\\programming\\algo '
+   'trading\\env\\lib\\site-packages\\PyInstaller\\loader\\pyimod01_os_path.pyc',
+   'PYMODULE'),
+  ('pyimod02_archive',
+   'd:\\programming\\algo '
+   'trading\\env\\lib\\site-packages\\PyInstaller\\loader\\pyimod02_archive.pyc',
+   'PYMODULE'),
+  ('pyimod03_importers',
+   'd:\\programming\\algo '
+   'trading\\env\\lib\\site-packages\\PyInstaller\\loader\\pyimod03_importers.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'd:\\programming\\algo '
+   'trading\\env\\lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_mplconfig',
+   'd:\\programming\\algo '
+   'trading\\env\\lib\\site-packages\\PyInstaller\\loader\\rthooks\\pyi_rth_mplconfig.py',
+   'PYSOURCE'),
+  ('pyi_rth_mpldata',
+   'd:\\programming\\algo '
+   'trading\\env\\lib\\site-packages\\PyInstaller\\loader\\rthooks\\pyi_rth_mpldata.py',
+   'PYSOURCE'),
+  ('pyi_rth__tkinter',
+   'd:\\programming\\algo '
+   'trading\\env\\lib\\site-packages\\PyInstaller\\loader\\rthooks\\pyi_rth__tkinter.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgres',
+   'd:\\programming\\algo '
+   'trading\\env\\lib\\site-packages\\PyInstaller\\loader\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'd:\\programming\\algo '
+   'trading\\env\\lib\\site-packages\\PyInstaller\\loader\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_pyqt5',
+   'd:\\programming\\algo '
+   'trading\\env\\lib\\site-packages\\PyInstaller\\loader\\rthooks\\pyi_rth_pyqt5.py',
+   'PYSOURCE'),
+  ('pyi_rth_certifi',
+   'd:\\programming\\algo '
+   'trading\\env\\lib\\site-packages\\PyInstaller\\loader\\rthooks\\pyi_rth_certifi.py',
+   'PYSOURCE'),
+  ('gui',
+   'D:\\Programming\\Algo Trading\\algo trading project\\gui.py',
+   'PYSOURCE'),
+  ('Autotrading.exe.manifest',
+   'D:\\Programming\\Algo Trading\\algo trading '
+   'project\\build\\Autotrading\\Autotrading.exe.manifest',
+   'BINARY')],
+ True,
+ False,
+ False,
+ [])
